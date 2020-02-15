@@ -4,11 +4,23 @@
 <div id="info">
   <table>
     <tr>
-      <th>pod:</th>
-      <td>{{ hostName }}</td>
+      <th>pod name:</th>
+      <td>{{ podName }}</td>
     </tr>
     <tr>
-      <th>node:</th>
+      <th>pod namespace:</th>
+      <td>{{ podNamespace }}</td>
+    </tr>
+    <tr>
+      <th>pod IP:</th>
+      <td>{{ podIp }}</td>
+    </tr>
+    <tr>
+      <th>node name:</th>
+      <td>{{ nodeName }}</td>
+    </tr>
+    <tr>
+      <th>node platform:</th>
       <td>{{ platform }} ({{ release }})</td>
     </tr>
   </table>
