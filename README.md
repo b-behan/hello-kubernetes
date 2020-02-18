@@ -27,7 +27,8 @@ Start a proxy to the Kubernetes cluster:
 ```bash
 kubectl proxy
 ```
-Access the Kubernetes Dashboard: http://localhost:8001 
+Access the Kubernetes Dashboard: http://localhost:8001/api/v1/namespaces/kube-system/services/kubernetes-dashboard/proxy
+ 
 
 ### Grafana
 Start a second proxy to forward local traffic to the Grafana service:
